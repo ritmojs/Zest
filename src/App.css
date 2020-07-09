@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+  .jumbotron,html,
+body {
+  font-family: 'Teko', sans-serif;
+  
+ 
+  height: 100%;
+}
+
+
+.text-color{
+  color: beige;
+}
+body {
+  background: #007bff;
+  background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+  
+}
+.css-text-color{
+  color:#007bff;
+}
+.home-btn{
+  background-color: palevioletred;
+}
+.css-text-color-female{
+  color:#e75480
+}
+
+.text-center{
+  text-align: center;
+}
+
+footer{
+  height: 50px;
+
+  margin-top: 100px;
+ 
+  background-color:whitesmoke;
+  color:#007bff;
+  font-family: 'MuseoModerno', cursive;
+ 
+
+  
+}
+
+
+.no-margin{
+  margin: 0;
+}
+
+
+
+.left{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#3d231b;
+  height : 100%;
+  color : #FFF;
+
+}
+.right{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#FFF;
+  height : 100%;
+  color : #3d231b;
+}
+@media (max-width: 1200px) { 
+  .left{
+    height:50%
+  }
+  .right{
+    height:50%
+  }
+}
+
+
+.center{
+  align-items: center;
+}
